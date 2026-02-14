@@ -1,5 +1,7 @@
 # APR Interest Payment Calculator #
 
+# First Draft #
+
 def interest_payment(card_balance, apr_rate, bill_cycle_length): # formula to calculate interest payment
     apr_rate_decimal = apr_rate / 100
     daily_apr_rate = apr_rate_decimal / 365
